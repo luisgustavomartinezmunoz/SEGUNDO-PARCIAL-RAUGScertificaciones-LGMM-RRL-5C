@@ -1,0 +1,18 @@
+export const questionBank = { 'js-foundations': [
+{ id:1, text:"¿Cuál es el resultado de typeof null en JavaScript?", options:[{ code:'A', text:"\"null\"" }, { code:'B', text:"\"object\"" }, { code:'C', text:"\"undefined\"" }, { code:'D', text:"\"number\"" }], correct:'B' },
+{ id:2, text:"¿Qué método convierte un arreglo [1,2,3] en '1-2-3'?", options:[{ code:'A', text:"arr.join('-')" }, { code:'B', text:"arr.toString('-')" }, { code:'C', text:"arr.concat('-')" }, { code:'D', text:"arr.map('-')" }], correct:'A' },
+{ id:3, text:"¿Cuál NO es una forma válida de declarar variables?", options:[{ code:'A', text:"let" }, { code:'B', text:"const" }, { code:'C', text:"var" }, { code:'D', text:"int" }], correct:'D' },
+{ id:4, text:"¿Qué valor es estrictamente igual a false?", options:[{ code:'A', text:"0 === false" }, { code:'B', text:"'' === false" }, { code:'C', text:"false === false" }, { code:'D', text:"null === false" }], correct:'C' },
+{ id:5, text:"¿Qué hace Array.prototype.map?", options:[{ code:'A', text:"Filtra elementos" }, { code:'B', text:"Transforma cada elemento y devuelve nuevo arreglo" }, { code:'C', text:"Reduce a un valor" }, { code:'D', text:"Modifica in-place" }], correct:'B' },
+{ id:6, text:"¿Cómo se copia superficialmente un objeto a otro?", options:[{ code:'A', text:"Object.assign({}, obj)" }, { code:'B', text:"obj.copy()" }, { code:'C', text:"copy(obj)" }, { code:'D', text:"new Object(obj)" }], correct:'A' },
+{ id:7, text:"¿Qué es el DOM?", options:[{ code:'A', text:"Librería de Node" }, { code:'B', text:"Protocolo de red" }, { code:'C', text:"Modelo de objetos del documento" }, { code:'D', text:"Base de datos" }], correct:'C' },
+{ id:8, text:"¿Qué palabra clave impide reasignación?", options:[{ code:'A', text:"let" }, { code:'B', text:"var" }, { code:'C', text:"const" }, { code:'D', text:"static" }], correct:'C' },
+{ id:9, text:"¿Cómo se crea una función flecha válida?", options:[{ code:'A', text:"function => name() {}" }, { code:'B', text:"(args) => { return 1 }" }, { code:'C', text:"() -> {}" }, { code:'D', text:"=> () {}" }], correct:'B' },
+{ id:10, text:"¿Qué retorna [].length?", options:[{ code:'A', text:"0" }, { code:'B', text:"undefined" }, { code:'C', text:"null" }, { code:'D', text:"false" }], correct:'A' },
+{ id:11, text:"JSON.parse('\"hola\"') retorna…", options:[{ code:'A', text:"'hola'" }, { code:'B', text:"hola" }, { code:'C', text:"{\"hola\":true}" }, { code:'D', text:"null" }], correct:'A' },
+{ id:12, text:"¿Cuál es una promesa resuelta inmediatamente?", options:[{ code:'A', text:"Promise.resolve(5)" }, { code:'B', text:"new Promise()" }, { code:'C', text:"await 5" }, { code:'D', text:"Promise.reject(5)" }], correct:'A' },
+{ id:13, text:"fetch devuelve…", options:[{ code:'A', text:"Un Response" }, { code:'B', text:"Una Promesa" }, { code:'C', text:"JSON" }, { code:'D', text:"XMLHttpRequest" }], correct:'B' },
+{ id:14, text:"¿Cómo prevenir envío por defecto de un <form>?", options:[{ code:'A', text:"event.stop()" }, { code:'B', text:"event.preventDefault()" }, { code:'C', text:"return false()" }, { code:'D', text:"stopPropagation()" }], correct:'B' },
+{ id:15, text:"¿Qué hace spread ...arr en [0,...arr,4]?", options:[{ code:'A', text:"Concatena elementos de arr" }, { code:'B', text:"Inserta arr como un solo elemento" }, { code:'C', text:"Clona profundo" }, { code:'D', text:"Convierte a string" }], correct:'A' },
+{ id:16, text:"¿Cuál es una comparación estricta?", options:[{ code:'A', text:"==" }, { code:'B', text:"===" }, { code:'C', text:"=" }, { code:'D', text:"=>" }], correct:'B' },
+] };
