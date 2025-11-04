@@ -25,26 +25,23 @@ RAUGS.CERTIFICADOS.PROYECTOFRONT-END.LGMM.RRL.5C/
 
 Instalación y ejecución
 
-Clonar el repositorio:
+1.Clonar el repositorio.
 
-git clone https://github.com/luisgustavomartinezmunoz/SEGUNDO-PARCIAL-RAUGScertificaciones-LGMM-RRL-5C.git
-
-
-Entrar a la carpeta del backend:
+2.Entrar a la carpeta del backend:
 
 cd RAUGS.CERTIFICADOS.PROYECTOFRONT-END.LGMM.RRL.5C/back
 
 
-Instalar dependencias:
+3.Instalar dependencias:
 
 npm install
 
 
-Ejecutar el servidor:
+4.Ejecutar el servidor:
 
 npm start
 
 
-Abrir el sitio en el navegador:
+5.Abrir el sitio en el navegador:
 
 http://localhost:3000
